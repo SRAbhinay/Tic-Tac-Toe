@@ -24,7 +24,7 @@ def enter_move(board):
         sign = board[row][col]
         ok = sign not in ['O','X'] 
         if not ok:
-            print("Field already occupied - repeat your input!")
+            print("Are you Blind 😑😑: repeat your input!")
             continue
     board[row][col] = 'O'
 
@@ -66,7 +66,7 @@ def draw_move(board):
         board[row][col] = 'X'
 
 board = [ [3 * j + i + 1 for i in range(3)] for j in range(3) ]
-board[1][1] = 'X'
+board[0][0] = 'X'
 free = make_list_of_free_fields(board)
 human_turn = True
 while len(free):
@@ -84,8 +84,8 @@ while len(free):
 
 display_board(board)
 if victor == 'you':
-    print("You won!")
+    print("Shit 😣😥😡, You won!")
 elif victor == 'me':
-    print("I won")
+    print("U LOOSER: 😁😁😁😁I won")
 else:
-    print("Tie!")
+    print("Good Game: 🙌🙌 Its a Tie!")
