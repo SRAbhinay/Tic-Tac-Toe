@@ -13,7 +13,7 @@ def display_board(board):
 def enter_move(board):
     ok = False
     while not ok:
-        move = input("Enter your move ENEMY: ") 
+        move = input("Enter your move enemy 😈: ") 
         ok = len(move) == 1 and move >= '1' and move <= '9'
         if not ok:
             print("Are you Blind 😑😑: repeat your input!")
@@ -66,7 +66,7 @@ def draw_move(board):
         board[row][col] = 'X'
 
 board = [ [3 * j + i + 1 for i in range(3)] for j in range(3) ]
-board[0][0] = 'X'
+board[1][1] = 'X'
 free = make_list_of_free_fields(board)
 human_turn = True
 while len(free):
