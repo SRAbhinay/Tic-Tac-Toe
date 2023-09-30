@@ -13,10 +13,10 @@ def display_board(board):
 def enter_move(board):
     ok = False
     while not ok:
-        move = input("Enter your move: ") 
+        move = input("Enter your move ENEMY: ") 
         ok = len(move) == 1 and move >= '1' and move <= '9'
         if not ok:
-            print("Bad move - repeat your input!")
+            print("Are you Blind 😑😑: repeat your input!")
             continue
         move = int(move) - 1
         row = move // 3
