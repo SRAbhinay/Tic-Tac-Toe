@@ -85,6 +85,7 @@ while len(free):
     if human_turn:
         enter_move(board)
         victor = victory_for(board,'O')
+    
     else:    
         draw_move(board)
         victor = victory_for(board,'X')
