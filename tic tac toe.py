@@ -50,6 +50,7 @@ def victory_for(board, sgn):
     
     if sgn == "X":
         who = 'me'
+    
     elif sgn == "O":
         who = 'you'
     else:
