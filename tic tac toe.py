@@ -41,6 +41,7 @@ def make_list_of_free_fields(board):
     for row in range(3):
         
         for col in range(3):
+            
             if board[row][col] not in ['O','X']:
                 free.append((row,col))
     return free
