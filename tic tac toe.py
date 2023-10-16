@@ -81,6 +81,7 @@ human_turn = True
 
 while len(free):
     display_board(board)
+    
     if human_turn:
         enter_move(board)
         victor = victory_for(board,'O')
