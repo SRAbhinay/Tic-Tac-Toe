@@ -53,6 +53,7 @@ def victory_for(board, sgn):
     
     elif sgn == "O":
         who = 'you'
+    
     else:
         who = None
     cross1 = cross2 = True
