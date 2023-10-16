@@ -23,6 +23,7 @@ def enter_move(board):
         if not ok:
             print("Are you Blind 😑😑: repeat your input!")
             continue
+       
         move = int(move) - 1
         row = move // 3
         col = move % 3
