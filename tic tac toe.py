@@ -15,6 +15,7 @@ def display_board(board):
 
 def enter_move(board):
     ok = False
+    
     while not ok:
         move = input("Enter your move enemy 😈: ") 
         ok = len(move) == 1 and move >= '1' and move <= '9'
