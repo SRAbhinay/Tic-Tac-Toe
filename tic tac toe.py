@@ -5,6 +5,7 @@ def display_board(board):
     
     for row in range(3):
         print("|       " * 3, "|", sep="")
+        
         for col in range(3):
             print("|   " + str(board[row][col]) + "   ", end="")
         print("|")
