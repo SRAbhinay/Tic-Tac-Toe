@@ -89,6 +89,7 @@ while len(free):
     else:    
         draw_move(board)
         victor = victory_for(board,'X')
+    
     if victor != None:
         break
     human_turn = not human_turn        
