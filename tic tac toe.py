@@ -2,6 +2,7 @@ from random import randrange
 
 def display_board(board):
     print("+-------" * 3, "+", sep="")
+    
     for row in range(3):
         print("|       " * 3, "|", sep="")
         for col in range(3):
