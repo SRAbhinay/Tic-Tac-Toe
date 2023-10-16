@@ -29,6 +29,7 @@ def enter_move(board):
         col = move % 3
         sign = board[row][col]
         ok = sign not in ['O','X'] 
+        
         if not ok:
             print("Are you Blind 😑😑: repeat your input!")
             continue
