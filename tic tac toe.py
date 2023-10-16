@@ -8,6 +8,7 @@ def display_board(board):
         
         for col in range(3):
             print("|   " + str(board[row][col]) + "   ", end="")
+            
         print("|")
         print("|       " * 3, "|", sep="")
         print("+-------" * 3, "+", sep="")
