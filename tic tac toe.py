@@ -76,6 +76,7 @@ def victory_for(board, sgn):
 def draw_move(board):
     free = make_list_of_free_fields(board)
     cnt = len(free)
+    
     if cnt > 0:
         this = randrange(cnt)
         row, col = free[this]
