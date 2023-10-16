@@ -19,6 +19,7 @@ def enter_move(board):
     while not ok:
         move = input("Enter your move enemy 😈: ") 
         ok = len(move) == 1 and move >= '1' and move <= '9'
+        
         if not ok:
             print("Are you Blind 😑😑: repeat your input!")
             continue
