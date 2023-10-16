@@ -47,6 +47,7 @@ def make_list_of_free_fields(board):
     return free
 
 def victory_for(board, sgn):
+    
     if sgn == "X":
         who = 'me'
     elif sgn == "O":
