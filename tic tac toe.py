@@ -94,7 +94,9 @@ display_board(board)
 
 if victor == 'you':
     print("Shit 😣😥😡, You won!")
+
 elif victor == 'me':
     print("U LOOSER: 😁😁😁😁I won")
+
 else:
     print("Good Game: 🙌🙌 Its a Tie!")
