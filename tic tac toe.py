@@ -77,6 +77,7 @@ board = [ [3 * j + i + 1 for i in range(3)] for j in range(3) ]
 board[1][1] = 'X'
 free = make_list_of_free_fields(board)
 human_turn = True
+
 while len(free):
     display_board(board)
     if human_turn:
