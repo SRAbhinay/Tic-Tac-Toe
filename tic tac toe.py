@@ -62,6 +62,7 @@ def victory_for(board, sgn):
         
         if board[rc][0] == sgn and board[rc][1] == sgn and board[rc][2] == sgn:
             return who
+        
         if board[0][rc] == sgn and board[1][rc] == sgn and board[2][rc] == sgn:
             return who
         if board[rc][rc] != sgn:
